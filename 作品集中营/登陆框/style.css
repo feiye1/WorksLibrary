@@ -1,0 +1,38 @@
+*{margin:0;padding:0;}
+html,body{height:100%;background:url("bengjing.png");}
+body{font-family:微软雅黑;-webkit-font-smoothing:antialiased;}
+ul{list-style: none;}
+.floater{height:50%;float:left;width:1px;position: relative;margin-bottom:-200px;}
+.wrapper{position: relative;clear:left;height:400px;width:40%;max-width:800px;min-width: 400px;margin: 0 auto;}
+.wrapper .header{width:100%;height:35px;text-align: center;line-height: 35px;color:#625E5B;margin-bottom: 30px;}
+.wrapper .header>p{font-size:21px;}
+.wrapper .header>p>span{font-size: 35px;font-family:"Brush Script Std";}
+.wrapper>form{width:310px;margin:0 auto;border-radius:5px;border:1px solid #F3F1EF;box-shadow:1px 0 2px 1px #D3CCC6,-1px 0 2px 1px #D3CCC6,0 3px 3px 1px #A49F9B;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e5e1dd+0,e4e0dc+18,e5e1dd+34,e4e0dc+50,e5e1dd+68,e4e0dc+83,e5e1dd+100 */
+    background: #e5e1dd; /* Old browsers */
+    background: -moz-linear-gradient(top,  #e5e1dd 0%, #e4e0dc 18%, #e5e1dd 34%, #e4e0dc 50%, #e5e1dd 68%, #e4e0dc 83%, #e5e1dd 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #e5e1dd 0%,#e4e0dc 18%,#e5e1dd 34%,#e4e0dc 50%,#e5e1dd 68%,#e4e0dc 83%,#e5e1dd 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #e5e1dd 0%,#e4e0dc 18%,#e5e1dd 34%,#e4e0dc 50%,#e5e1dd 68%,#e4e0dc 83%,#e5e1dd 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e1dd', endColorstr='#e5e1dd',GradientType=0 ); /* IE6-9 */
+}
+.wrapper>form>ul{padding:30px;text-align: center;display: inline-block;}
+.user,.password{position:relative;width:250px;height:40px;margin-bottom:25px;}
+input[type="text"],input[type="password"]{width:180px;position:absolute;top:0;left:0;padding:0 35px;line-height: 40px;display: inline-block;background:#E1DCD8;border-radius:5px;border:1px solid #C3BCB7;box-shadow:0 1px 1px #F5F4F2, inset 0 2px 3px  #D2CDC9;  }
+.i-user,.i-mima{position:absolute;top:0;left:0;color:#625E5B;z-index: 1;line-height: 40px;text-align: center;width:35px;}
+input[type="text"]:focus,input[type="password"]:focus{background:white;outline: none;}
+.remember{height:22px;line-height: 22px;display: inline-block;width:100%;vertical-align: top;color:#6B6764;font-size:14px;margin-bottom: 20px;}
+input[type="checkbox"]{line-height: 22px;display: inline-block;height: 22px;width:22px;float:left;}
+.remember>span{text-align: center;height:22px;line-height: 22px;display: inline-block;float:left;margin-left:0.6em;font-weight:600;}
+.help{line-height: 22px;height:22px;display: inline-block;width:100%;margin-bottom: 20px;}
+.help>a{color:#A29992;font-size:14px;font-weight:500;line-height: 22px;display: inline-block;float:left;}
+.tijiao{height:40px;line-height:40px;display: inline-block;width:100%;}
+.tijiao>input[type="button"]{width:100%;height:40px;line-height: 38px;border:1px solid #4A503C;border-radius:5px;font-size: 14px;font-weight:600;color:white;outline:none;box-shadow: inset 0 -1px 1px #73854E, 0 1px 1px #9F9C99, inset 0 1px 1px #CAD7A6;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#799049+0,748d45+16,6d843f+33,6e8641+50,728b43+68,789049+86,768d46+99 */
+    background: #799049; /* Old browsers */
+    background: -moz-linear-gradient(top,  #799049 0%, #748d45 16%, #6d843f 33%, #6e8641 50%, #728b43 68%, #789049 86%, #768d46 99%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #799049 0%,#748d45 16%,#6d843f 33%,#6e8641 50%,#728b43 68%,#789049 86%,#768d46 99%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #799049 0%,#748d45 16%,#6d843f 33%,#6e8641 50%,#728b43 68%,#789049 86%,#768d46 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#799049', endColorstr='#768d46',GradientType=0 ); /* IE6-9 */
+}
+.foot{font-size:12px;text-align: center;margin-top:32px;line-height: 2em;color:#625E5B;}
+.foot>p>a{font-weight:600;color:#AEA6A0;font-size: 12px;}

@@ -1,0 +1,69 @@
+*{margin:0;padding:0;}
+ul{list-style: none;}
+.arts{
+    position:relative;
+    margin:0 auto;
+    width:730px;
+    height:454px;
+}
+.prev{
+    position:absolute;
+    display: none;
+    outline:none;
+    background:rgba(0,0,0,.2);
+    font-size:18px;
+    color:white;
+    opacity:0.5;
+    filter:alpha(opacity=50);
+    border:none;
+    width:28px;
+    height:62px;
+    top:50%;
+    left:0;
+}
+.next{
+    position:absolute;
+    display: none;
+    outline:none;
+    background: rgba(0,0,0,.2);
+    font-size:18px;
+    color:white;
+    opacity:0.5;
+    filter:alpha(opacity=50);
+    border:none;
+    width:28px;
+    height:62px;
+    top:50%;
+    right:0;
+}
+.arts:hover .prev{
+    display: block;
+    z-index:2;
+}
+.arts:hover .next{
+    display: block;
+    z-index:2;
+}
+
+.Numb{
+    position:absolute;
+    bottom:10px;
+    width:730px;
+    text-align:center;
+
+}
+.Numb>li.numb{
+    width:18px;
+    height:18px;
+    display: inline-block;
+    line-height: 18px;
+    margin: 0 2px;
+    background: #3e3e3e;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+    overflow: hidden;
+    cursor: pointer;
+    z-index:1;
+}
+.Numb> li.active{background: red;}
